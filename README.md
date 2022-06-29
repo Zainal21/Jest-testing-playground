@@ -1,4 +1,4 @@
-# Testing using Jest
+# Example Testing using Jest
 
 ## Overview
 

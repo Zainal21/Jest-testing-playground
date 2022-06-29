@@ -1,5 +1,4 @@
 const sumNumber = require("../modules/sum");
-const shoppingList = require("../modules/list");
 
 // write test here
 test("should be 1 + 1 = 2", () => {
@@ -14,9 +13,4 @@ test("should be 2 + 2 = 4", () => {
 test("should be 2 + 3 = 5", () => {
   expect(sumNumber(2, 2)).not.toBe(5); // result false
   expect(sumNumber(2, 2)).toEqual(4); // test if less (kurang dari)
-});
-
-test("should contain milk in shopping list", () => {
-  expect(shoppingList).toContain("milk");
-  expect(new Set(shoppingList)).toContain("milk");
 });
